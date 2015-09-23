@@ -1,4 +1,5 @@
 Usage:
+    markdown2cody [ FILE ]
     markdown2cody ( -h | --help )
 
 Options:
@@ -7,3 +8,4 @@ Options:
 Commands:
 
 Arguments:
+    FILE                    markdown file to convert (or stdin)

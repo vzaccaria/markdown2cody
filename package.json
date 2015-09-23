@@ -9,7 +9,7 @@
   "man": "./man/man1/markdown2cody.1",
   "scripts": {
     "test": "make test"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vzaccaria/markdown2cody.git"
@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/vzaccaria/markdown2cody",
   "dependencies": {
-	  "zaccaria-cli": "*"
+    "mdast": "^2.0.0",
+    "sprintf": "^0.1.5",
+    "zaccaria-cli": "*"
   },
   "devDependencies": {
     "diy-build": "^1.0.8",
@@ -31,8 +33,8 @@
     "mocha": "*",
     "chai": "*",
     "chai-as-promised": "*",
-	  "mustache": "~2.1.2",
-	  "stupid-replace": "~0.0.3",
-	  "git-hist": "*"
+    "mustache": "~2.1.2",
+    "stupid-replace": "~0.0.3",
+    "git-hist": "*"
   }
 }
